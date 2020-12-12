@@ -1,0 +1,367 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    max-width: 1440px;
+}
+
+.respmenu a { 
+    color: #242323;
+    text-decoration: none;
+    padding: 10px 20px;
+    max-width: 200px; 
+    font-variant: small-caps;
+    text-shadow: 1px 1px black;
+   
+  }
+  
+  .respmenu {
+    color: white;
+    position: relative; 
+    
+    min-height: 60px;
+
+  }
+   
+  .navbar {
+/* display: none; */
+display: flex;
+margin-top: -25px;
+    
+  }
+  .navbar ul {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+     
+    margin-right: 20px;
+    width: 100%;
+
+  }
+
+  .navbar ul li {
+     margin-right: 10px;
+     list-style-type: none;
+  }
+
+   
+ 
+
+.respmenu img{
+    width: 120px;
+    height: 40px;
+    margin: 5px 0 0 5px;
+    border-radius: 4px;
+       
+}
+
+.container{
+   
+    
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+
+}
+
+.heading{
+   
+    width: 100%;
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 70px 0 120px 0;
+    text-align: center;
+    clip-path: polygon(0% 80px, 100% 0%,  100% 95%, 0% 100%);
+
+}
+
+.title{
+    color: #242323;
+    font-size: xx-large;
+    font-weight: 900;
+    
+}
+
+.btn1{
+    color: #f1f1f1;
+    font-size: large;
+    font-weight: 600;
+    background: #fadd38ef;
+    width: 170px;
+    height: 60px;
+    border: solid 3px #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    color: #e2c33b;
+    background: #000000;
+    border: solid 3px #f1f1f1;
+}
+
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card{
+    border: solid 4px #f1f1f1;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 40%;
+    margin: 0 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.card:hover{
+    background: #f7f3f3;
+    border: solid 4px #000000;
+}
+iframe{
+   border-radius: 5px;
+   width: 80%;
+}
+#nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 0 0 180px 0;
+    
+}
+
+#nosotros img{
+   
+   
+    width: 25%;
+    position: absolute;
+    margin-top: -70px;
+    left: 120px;
+
+
+  
+}
+
+.card2{
+    width: 40%;
+    font-size: medium;
+    font-weight: 600;    
+    margin: 10px 0 0px 140px;
+}
+.card2 p{
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+#entrevistas{
+    text-align: center;
+   padding: 30px 0 0 0;
+    
+}
+.imgs{
+    flex-wrap: nowrap;
+    flex-direction: row;
+   
+    width: 100%;
+
+}
+
+.imgs img{
+
+    width: 480px;
+    height: 364px;
+
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 50px 30px 10px 50px;
+
+}
+
+.card-icon{
+    width: 260px;
+    height: 170px;
+    
+}
+.card-icon p{
+  font-size: large;
+  font-weight: 600;
+}
+#topicos{
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 518px;
+    padding: 60px 0 60px 0;
+    clip-path: polygon(0% 70px, 100% 0%,  100% 100%, 0% 100%);
+    display: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.title2{
+    color: #f1f1f1;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 140px;
+}
+
+footer{
+    min-height: 95px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+footer i{
+    margin-left: 10px;
+}
+@media (max-width: 1024px){
+    .content{
+        flex-direction: column;
+                
+        justify-content: center;
+        width: 100%;
+    }  
+    .card{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    iframe{
+        width: 80%;
+    }
+}
+
+@media (max-width: 724px) {
+
+    .navbar{
+        display: none;
+        margin-top: 20px;
+    }
+
+    .respmenu input:checked ~ nav {
+        display: block;
+      }
+   nav ul {
+         flex-wrap: nowrap;
+         flex-direction: column;
+      }
+       
+      .respmenu input:checked ~ .fa-bars {
+        display: none;
+      }
+       
+      .respmenu input:not(:checked) ~ .fa-times {
+        display: none;
+      }
+      .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+        position: absolute;  
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        top: 0;
+        width: 48px;
+        height: 48px; 
+        color: #000000; 
+      }
+       
+      .respmenu .fa-bars, .respmenu .fa-times {
+        font-size: 48px;
+        pointer-events: none;
+      }
+       
+      .respmenu input[type="checkbox"] {
+        opacity: 0; 
+      }
+       
+
+    
+       .title{
+           font-size: large;
+           font-weight: 500;
+       }
+       .subtitle {
+           font-size: large;
+           font-weight: 500;
+       }
+       
+
+
+       .card{
+           border: solid 4px #f1f1f1;
+           border-radius: 10px;
+           padding: 10px 10px 10px 10px;
+           width: 80%;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 10px;
+       }
+       iframe{
+           width: auto;
+       }
+      #nosotros{
+          display: wrap;
+          justify-content: center;
+          
+       }
+       #nosotros img{
+         width: 70%;
+         margin: -75px 0 70px 0;
+       }
+       .card2{
+           text-align: center;
+           width: 90%;
+          margin: 470px 20px 0 0;
+         
+       }
+       #entrevistas{
+           margin-top: -160px;
+       }
+
+       .icons{
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+       }
+       .card-icon{
+           margin-top: 25px;
+       }
+
+       .title{
+           font-size: large;
+           font-weight: 700;
+       }
+       .subtitle{
+           font-size: larger;
+           font-weight: 700;
+       }
+       footer{
+         flex-direction: column;
+       }
+       footer i{
+          margin-left: 35px;
+       }
+       
+      
+}
